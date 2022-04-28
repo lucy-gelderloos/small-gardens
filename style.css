@@ -33,11 +33,6 @@ h2 {
     margin:0;
 }
 
-h3 {
-    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
-    color: #7555A6;
-}
-
 a {
     color: #18732D;
     text-decoration: none;
@@ -47,12 +42,6 @@ a:hover {
     color: #55A667;
     text-decoration: underline;
 }
-
-nav {
-    background-color: #D3BFDE;
-}
-
-
 
 
 /*fonts: https://www.cssfontstack.com/Palatino, https://www.cssfontstack.com/Verdana*/
