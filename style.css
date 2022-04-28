@@ -1,10 +1,59 @@
 body {
-    background-color: white;
     font-family: Verdana,Geneva,sans-serif; 
+}
+
+header {
+    padding: 0 1rem;
+}
+
+section {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+article {
+    background-color: #D3BFDE;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+article:hover {
+    background:linear-gradient(140deg,#7555A6,#D3BFDE 10% 80%,#7555A6)
 }
 
 h1 {
     font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+    color: #18732D;
 }
 
+h2 {
+    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+    color: #18732D;
+    margin:0;
+}
+
+h3 {
+    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+    color: #7555A6;
+}
+
+a {
+    color: #18732D;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #55A667;
+    text-decoration: underline;
+}
+
+nav {
+    background-color: #D3BFDE;
+}
+
+
+
+
 /*fonts: https://www.cssfontstack.com/Palatino, https://www.cssfontstack.com/Verdana*/
+/*column layout: https://css-tricks.com/equal-columns-with-flexbox-its-more-complicated-than-you-might-think/ */
