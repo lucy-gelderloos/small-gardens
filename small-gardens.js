@@ -1,37 +1,42 @@
 function chooseSeason() {
-    let season = prompt("What's your favorite season?", "summer").toLowerCase();
-    const element = document.getElementById("season");
-    switch(season) {
-        case "winter":{
-            element.classList.remove("spring","summer","fall");
-            element.classList.add("winter");
-            break;
+    const seasonList = ["spring","summer","fall","autumn","winter"]
+    const element = document.getElementById("season"); 
+    var favSeason = prompt("What's your favorite season?").toLowerCase();
+        
+        while (!seasonList.includes(favSeason)) {
+            var favSeason = prompt("Sorry, I don't know that one! Please enter spring, summer, fall, or winter.").toLowerCase();
         }
-        case "spring":{
-            element.classList.remove("summer","fall","winter");
-            element.classList.add("spring");
-            break;
+       
+        switch(favSeason) {
+            case "winter":{
+                element.classList.remove("spring","summer","fall");
+                element.classList.add("winter");
+                break;
+            }
+            case "spring":{
+                element.classList.remove("summer","fall","winter");
+                element.classList.add("spring");
+                break;
+            }
+            case "summer":{
+                element.classList.remove("spring","fall","winter");
+                element.classList.add("summer");
+                break;
+            }
+            case "fall":{
+                element.classList.remove("spring","summer","winter");
+                element.classList.add("fall");
+                break;
+            }
+            case "autumn":{
+                element.classList.remove("spring","summer","winter");
+                element.classList.add("fall");
+                break;
+            }
+            default:{
+                element.classList.remove("spring","fall","winter");
+                element.classList.add("summer");
         }
-        case "summer":{
-            element.classList.remove("spring","fall","winter");
-            element.classList.add("summer");
-            break;
-        }
-        case "fall":{
-            element.classList.remove("spring","summer","winter");
-            element.classList.add("fall");
-            break;
-        }
-        case "autumn":{
-            element.classList.remove("spring","summer","winter");
-            element.classList.add("fall");
-            break;
-        }
-        default:{
-            element.classList.remove("spring","fall","winter");
-            element.classList.add("summer");
-        }
-
     }
 }
 
