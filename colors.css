@@ -1,0 +1,83 @@
+/* Spring Swatches in Hex */
+.mid-green-hex { color: #55A667; }
+.dark-green-hex { color: #18732D; }
+.light-green-hex { color: #A7D984; }
+.lilac-hex { color: #D3BFDE; }
+.purple-hex { color: #7555A6; }
+
+/* Spring Swatches in RGBA */
+.mid-green-rgba { color: rgba(85, 166, 103, 1); }
+.dark-green-rgba { color: rgba(24, 115, 45, 1); }
+.light-green-rgba { color: rgba(167, 217, 132, 1); }
+.lilac-rgba { color: rgba(211, 191, 222, 1); }
+.purple-rgba { color: rgba(117, 85, 166, 1); }
+
+/* Spring Swatches in HSLA */
+.mid-green-hsla { color: hsla(133, 32, 49, 1); }
+.dark-green-hsla { color: hsla(133, 65, 27, 1); }
+.light-green-hsla { color: hsla(95, 52, 68, 1); }
+.lilac-hsla { color: hsla(278, 31, 80, 1); }
+.purple-hsla { color: hsla(263, 32, 49, 1); }
+
+/* Summer Swatches in Hex */
+.scarlet-hex { color: #FC4935; }
+.fucshia-hex { color: #F20587; }
+.dark-green-hex { color: #274001; }
+.mid-green-hex { color: #6F8C04; }
+.crimson-hex { color: #D90707; }
+
+/* Summer Swatches in RGBA */
+.scarlet-rgba { color: rgba(252, 73, 53, 1); }
+.fucshia-rgba { color: rgba(242, 5, 135, 1); }
+.dark-green-rgba { color: rgba(39, 64, 1, 1); }
+.mid-green-rgba { color: rgba(111, 140, 4, 1); }
+.crimson-rgba { color: rgba(217, 7, 7, 1); }
+
+/* Summer Swatches in HSLA */
+.scarlet-hsla { color: hsla(6, 97, 59, 1); }
+.fucshia-hsla { color: hsla(327, 95, 48, 1); }
+.dark-green-hsla { color: hsla(83, 96, 12, 1); }
+.mid-green-hsla { color: hsla(72, 94, 28, 1); }
+.crimson-hsla { color: hsla(0, 93, 43, 1); }
+
+/* Winter Swatches in Hex */
+.Winter-1-hex { color: hsl(208, 25%, 37%); }
+.Winter-2-hex { color: #DEEBF7; }
+.Winter-3-hex { color: #92C6F5; }
+.Winter-4-hex { color: #6A7075; }
+.Winter-5-hex { color: #749EC2; }
+
+/* Winter Swatches in RGBA */
+.Winter-1-rgba { color: rgba(70, 95, 117, 1); }
+.Winter-2-rgba { color: rgba(222, 235, 247, 1); }
+.Winter-3-rgba { color: rgba(146, 198, 245, 1); }
+.Winter-4-rgba { color: rgba(106, 112, 117, 1); }
+.Winter-5-rgba { color: rgba(116, 158, 194, 1); }
+
+/* Winter Swatches in HSLA */
+.Winter-1-hsla { color: hsla(208, 25, 36, 1); }
+.Winter-2-hsla { color: hsla(208, 60, 91, 1); }
+.Winter-3-hsla { color: hsla(208, 83, 76, 1); }
+.Winter-4-hsla { color: hsla(207, 4, 43, 1); }
+.Winter-5-hsla { color: hsla(207, 38, 60, 1); }
+
+/* Fall Swatches in Hex */
+.Fall-1-hex { color: #FBE921; }
+.Fall-2-hex { color: #E6B02A; }
+.Fall-3-hex { color: #FA902D; }
+.Fall-4-hex { color: #E63E17; }
+.Fall-5-hex { color: #FF1768; }
+
+/* Fall Swatches in RGBA */
+.Fall-1-rgba { color: rgba(251, 233, 33, 1); }
+.Fall-2-rgba { color: rgba(230, 176, 42, 1); }
+.Fall-3-rgba { color: rgba(250, 144, 45, 1); }
+.Fall-4-rgba { color: rgba(230, 62, 23, 1); }
+.Fall-5-rgba { color: rgba(255, 23, 104, 1); }
+
+/* Fall Swatches in HSLA */
+.Fall-1-hsla { color: hsla(55, 96, 55, 1); }
+.Fall-2-hsla { color: hsla(42, 78, 53, 1); }
+.Fall-3-hsla { color: hsla(28, 95, 57, 1); }
+.Fall-4-hsla { color: hsla(11, 81, 49, 1); }
+.Fall-5-hsla { color: hsla(339, 100, 54, 1); }
