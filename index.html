@@ -4,13 +4,18 @@
     <meta charset="utf-8">
     <title>Small Spaces Gardening</title>
     <link rel="stylesheet" href="style.css">
+    <script src="small-gardens.js"></script>
   </head>
-  <body>
+  <body id="season" class="spring">
     <header>
+        <script>chooseSeason()</script>
+        <img id="sunOrMoon" src="sun.png">
+        <script>sunOrMoon()</script>
+        <!--the function must be above the element or it will load before the element does-->
         <h1>Gardening in Small Spaces</h1>
     </header>
     <section>
-        <article class="spotlight">
+        <article>
             <h2>Spotlight: Scarlet Runner Beans</h2>
             <p>If you have a southern exposure, scarlet runner beans can provide a fast-growing source of shade just in time for the heat of late summer. This plant can climb up to 10 feet and features large, bright green leaves and brilliant scarlet flowers. Provide a trellis or net to support the vines.</p>
         </article>
@@ -31,6 +36,8 @@
         </article>
     </section>
     <footer>
+        <button id="changeSeason">Change the Season</button>
+        <script>changeSeason()</script>
         <address><a href="mailto:lucygel@gmail.com">Contact me</a></address>
     </footer>
   </body>
