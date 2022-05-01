@@ -56,16 +56,72 @@ function changeSeason() {
         if (confirm("This will refresh the page.") == true) {
             location.reload();
         }
- //       location.reload();
     }
     refreshButton.addEventListener('click', refreshPage)
 }
 
+function gardenPlanGame() {
+    var section = document.getElementById("gardenPlan");
+    
+    const gameButton = document.getElementById("gardenPlanGame");
+    const playGame = () => {
+
+        while (section.firstChild) {
+            section.removeChild(section.firstChild);
+        }
+
+        var bulbs = prompt("You have ten pots in your garden. How many bulbs would you like to plant this year?");
+
+        while(isNaN(bulbs) || 1 > bulbs || 10 < bulbs) {
+            var bulbs = prompt("Please enter a number between 1 and 10.");
+        }
+        
+        var squirrels = Math.floor(Math.random() * bulbs);
+        var survivors = bulbs - squirrels;
 
 
+        for(let i=0; i<squirrels; i++) {
+            let squirrelPic = document.createElement("img");
+            squirrelPic.src = "squirrel2.png";
+            section.appendChild(squirrelPic);
+        }
+
+        for( let j=0; j<survivors; j++) {
+            let flowerPot = document.createElement("img");
+            flowerPot.src = "flowerPot.png";
+            section.appendChild(flowerPot);
+        }
+                
+        if(survivors == 0) {
+            alert("Oh no! The squirrels got them all!");
+        }
+        else if(squirrels == 0) {
+            alert("Hooray! They all survived the squirrels!");
+        }
+        else {
+            alert("Oh no! The squirrels ate " + squirrels + " of your bulbs!");
+        }
+
+    }
+    gameButton.addEventListener('click',playGame)
+}
+
+
+/*Game
+prompt: you have ten pots in your garden. how many do you want to plant bulbs in?
+input (bulbs):
+  0 - "are you sure?"
+  1-10 - generate a random number between 0 and bulbs
+  display that many squirrels and bulbs minus that number of bulbs
+  if squirrels = 0, "congrats! all your bulbs survived!"
+  if squirrels = bulbs, "oh no! squirrels got them all!"
+  else 
+
+*/
 
 
 //prompt https://www.w3schools.com/jsref/met_win_prompt.asp
 //change class of html element https://stackoverflow.com/questions/195951/how-can-i-change-an-elements-class-with-javascript
 //how to change elements based on an ancestor's class https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator
-//event listener for refresh button
+//random number generator https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+//insert image https://moonbooks.org/Articles/How-to-add-an-image-in-a-HTML-page-using-javascript-/
